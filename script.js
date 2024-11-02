@@ -27,3 +27,10 @@ function toggleReadMore() {function toggleReadMore() {
       moreText.style.display = "inline";
   }
 }
+ function closeNavbar() {
+        const navbarCollapse = document.getElementById("navbarNav");
+        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+          toggle: false
+        });
+        bsCollapse.hide();
+      }
