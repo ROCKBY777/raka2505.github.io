@@ -1,0 +1,55 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a2d9ff;
+}
+#project {
+  background-color: #a2d9ff;
+}
+
+section {
+  padding-top: 6rem;
+}
+.member-container {
+  
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.description-container {
+  
+  border-radius: 8px;
+  padding: 10px;
+}
+.photo-container {
+  flex: 0 0 150px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member-photo img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.job-label {
+  font-size: 0.8rem;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.3em 0.5em;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+#more {
+  display: none;
+}
+.readmore-btn {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
