@@ -39,18 +39,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
+              <a class="nav-link active" aria-current="page" href="#home" onclick="closeNavbar()"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Tentang Kami</a>
+              <a class="nav-link" href="#about" onclick="closeNavbar()">Tentang Kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projek">Project</a>
+              <a class="nav-link" href="#projek" onclick="closeNavbar()">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact" onclick="closeNavbar()">Contact</a>
             </li>
           </ul>
         </div>
@@ -121,7 +121,10 @@
           <div class="member-name mb-1 h3">Ilham El Capitano</div>
           <div class="job-label">Children Of death</div>
           <div class="job-label">Sahabat ketua geng motor</div>
-          <p>isi guys</p>
+          <p>saya adalah ilham ramdan seorang mahasiswa teknik informatika di Universitas kebangsaan angkatan 23 saya berasal dari kab cianjur di daerah
+             <span id="dots">...</span> 
+             <span id="more">cipanas saya adalah anak ke 3 dari 4 bersaudara hobi saya adalah bermain bulutangkis, touring dan futsal.</p>
+          <span class="readmore-btn text-blue" onclick="toggleReadMore()" id="readMoreBtn">Read More</span>
         </div>
       </div>
   
@@ -131,8 +134,8 @@
         </div>
         <div class="description-container">
           <div class="member-name mb-1 h3 ">Chelsea The Blues</div>
-          <div class="job-label">i am only one</div>
-          <p>isi guys</p>
+          <div class="job-label"> pencinta kang Alam</div>
+          <p>hallo perkenalkan semuanya, saya chelsea aaliyah mahasiswa teknik informatika saya berasal dari bandung hobi saya healing ke alam - alam dan nari bersama teman - teman saya.</span></p>
         </div>
       </div>
   
@@ -221,7 +224,7 @@
     <!-- Akhir Project -->
     <!-- contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container ">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact</h2>
