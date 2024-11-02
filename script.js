@@ -14,6 +14,7 @@ function toggleReadMore(dotsId, moreId, btnId) {
   }
 }
 
+
  function closeNavbar() {
         const navbarCollapse = document.getElementById("navbarNav");
         const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
